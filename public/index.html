@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>ProLearning Finder</h1>
+    <br></br>
+    <p class="subtitle">Find the right learning activities to reach your career goals.</p>
+        <br></br>
+
+    <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Career Goal" required>
+        <label for="cars">Current Role/Level:</label>
+        <select name="cars" id="cars" required>
+            <option value="">--Select an option--</option>
+            <option value="student">Student</option>
+            <option value="early">Early Career</option>
+            <option value="mercedes">Mid-Career</option>
+            <option value="audi">Advanced</option>
+        </select>
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="e.g. Sacramento, CA" required>
+
+        <div class="slider-container">
+            <label for="volume">Budget:</label>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="50">
+            <span class="value-display" id="volumeValue">50</span>
+        </div>
+
+        <label>Activity Type:</label>
+        <div class="checkbox-group">
+            <label><input type="checkbox" value="courses"> Online Courses</label>
+            <label><input type="checkbox" value="workshops"> Workshops</label>
+            <label><input type="checkbox" value="meetups"> Meetups & Events</label>
+            <label><input type="checkbox" value="volunteering"> Volunteering</label>
+            <label><input type="checkbox" value="certificates"> Certificates</label>
+        </div>
+
+        <button type="submit">Search</button>
+
+    </form>
+    <div id="searchResults"></div>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
