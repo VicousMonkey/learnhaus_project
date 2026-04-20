@@ -24,6 +24,21 @@ const PROLEARNING_DATASET = [
     { name: "LinkedIn Learning", type: "Course", provider: "LinkedIn", cost: "paid", url: "https://www.linkedin.com/learning/", tags: ["professional", "business", "tech", "leadership"] },
     { name: "MLH Hackathons", type: "Meetup", provider: "Major League Hacking", cost: "free", url: "https://mlh.io", tags: ["hackathon", "coding", "tech", "networking", "student"] },
     { name: "Eventbrite Professional Workshops", type: "Workshop", provider: "Eventbrite", cost: "varies", url: "https://www.eventbrite.com", tags: ["workshops", "professional", "networking", "local"] },
+    { name: "Coursera Legal Studies Courses", type: "Course", provider: "Coursera", cost: "free trial", url: "https://www.coursera.org/search?query=legal+studies", tags: ["law", "legal", "professional"] },
+{ name: "MasterClass — Writing", type: "Course", provider: "MasterClass", cost: "paid", url: "https://www.masterclass.com/categories/writing", tags: ["writing", "author", "creative", "storytelling"] },
+{ name: "Gotham Writers Workshop", type: "Workshop", provider: "Gotham Writers", cost: "paid", url: "https://www.writingclasses.com", tags: ["writing", "fiction", "creative writing", "author"] },
+{ name: "Toastmasters International", type: "Community", provider: "Toastmasters", cost: "paid", url: "https://www.toastmasters.org", tags: ["communication", "public speaking", "leadership"] },
+{ name: "Coursera Psychology & Mental Health", type: "Course", provider: "Coursera", cost: "free trial", url: "https://www.coursera.org/search?query=psychology", tags: ["psychology", "mental health", "counseling"] },
+{ name: "HubSpot Marketing Certifications", type: "Certificate", provider: "HubSpot", cost: "free", url: "https://academy.hubspot.com", tags: ["marketing", "business", "sales", "content"] },
+{ name: "Skillshare Creative Classes", type: "Course", provider: "Skillshare", cost: "paid", url: "https://www.skillshare.com", tags: ["design", "illustration", "creative", "art", "writing"] },
+{ name: "Khan Academy", type: "Course", provider: "Khan Academy", cost: "free", url: "https://www.khanacademy.org", tags: ["math", "science", "humanities", "education", "free"] },
+{ name: "Coursera Business Foundations", type: "Certificate", provider: "Coursera/Wharton", cost: "free trial", url: "https://www.coursera.org/specializations/wharton-business-foundations", tags: ["business", "entrepreneurship", "finance", "management"] },
+{ name: "National Novel Writing Month (NaNoWriMo)", type: "Community", provider: "NaNoWriMo", cost: "free", url: "https://nanowrimo.org", tags: ["writing", "author", "fiction", "community"] },
+{ name: "Coursera Biology & Life Sciences", type: "Course", provider: "Coursera", cost: "free trial", url: "https://www.coursera.org/search?query=biology", tags: ["biology", "science", "pre-med", "research"] },
+{ name: "Khan Academy Biology", type: "Course", provider: "Khan Academy", cost: "free", url: "https://www.khanacademy.org/science/biology", tags: ["biology", "science", "free", "education"] },
+{ name: "Cold Spring Harbor Laboratory DNA Learning Center", type: "Course", provider: "CSHL", cost: "free", url: "https://dnalc.cshl.edu", tags: ["biology", "genetics", "DNA", "research"] },
+{ name: "American Society for Microbiology", type: "Community", provider: "ASM", cost: "paid", url: "https://asm.org", tags: ["microbiology", "biology", "research", "professional"] },
+{ name: "Volunteering with Local Research Labs (Taproot/VolunteerMatch)", type: "Volunteering", provider: "VolunteerMatch", cost: "free", url: "https://www.volunteermatch.org", tags: ["biology", "research", "science", "volunteering"] },
 ];
 
 app.post('/recommend', async (req, res) => {
