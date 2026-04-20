@@ -88,10 +88,6 @@ Visit `http://localhost:3000`
 - Implement semantic search over the activity index rather than passing the full dataset to Claude
 - Add source confidence scores and verification timestamps to each result
 
-## Time Spent
-
-Approximately 3–4 hours (built in one evening)
-
 ## AI Tool Usage
 
 I used AI tools to build this README file as well as the stylesheets for the UI. 
